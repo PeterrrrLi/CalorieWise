@@ -2,10 +2,10 @@ import java.sql.Connection
 import java.sql.DriverManager
 
 class DatabaseManager(
-    hostname: String = "34.72.35.197:3306",
+    hostname: String = "xx.xx.xx.xx",
     schemaName: String = "calorie-wise",
     username: String = "root",
-    password: String = "jE5u~(7o,C_bi,h8"
+    password: String = "xxxxxxxxxxxxxxxxxx"
 ) {
     private val jdbcUrl: String = "jdbc:mysql://$hostname/$schemaName?user=$username&password=$password"
     private val connection: Connection = establishConnection()
